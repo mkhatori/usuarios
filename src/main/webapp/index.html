@@ -1,0 +1,69 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<head>
+	<title>Cadastro de Usuário</title>
+</head>
+<body>
+
+	<form class="form-horizontal">
+		<fieldset>
+			<div class="panel panel-primary">
+				<div class="panel-heading">Cadastro de Usuário</div>
+
+				<div class="panel-body">
+					<div class="form-group"></div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-md-2 control-label" for="Nome">Nome </label>
+						<div class="col-md-8">
+							<input id="Nome" name="Nome" placeholder=""
+								class="form-control input-md" type="text">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-md-2 control-label" for="Idade">Idade </label>
+						<div class="col-md-2">
+							<input id="idade" name="idade" class="form-control input-md" type="number">
+						</div>
+
+					</div>
+
+					<div class="form-group">
+						<label class="col-md-2 control-label" for="prependedtext">Email
+						</label>
+						<div class="col-md-5">
+							<div class="input-group">
+								<span class="input-group-addon"><i
+									class="glyphicon glyphicon-envelope"></i></span> <input
+									id="prependedtext" name="prependedtext" class="form-control"
+									placeholder="email@email.com" type="text"
+									pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+							</div>
+						</div>
+					</div>
+
+					<div id="divisoria">
+
+						<div class="form-group">
+							<label class="col-md-2 control-label" for="Cadastrar"></label>
+							<div class="col-md-8">
+								<button id="Cadastrar" name="Cadastrar" class="btn btn-success"
+									type="Submit">Cadastrar</button>
+								<button id="Cancelar" name="Cancelar" class="btn btn-danger"
+									type="Reset">Cancelar</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+		</fieldset>
+	</form>
+
+</body>
+</html>
